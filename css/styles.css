@@ -18,13 +18,10 @@ body {
 }
 
 .site-nav {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 .phone {
   color: var(--primary-text-color);
-}
-.site-nav-black {
-  color: var(--title-text-color);
 }
 /* WebStudio */
 .logo-blue {
@@ -47,6 +44,14 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
 }
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
 .section-hero {
   background-color: var(--background-color);
 }
@@ -123,4 +128,44 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+}
+/* Футер */
+footer {
+  background: #2f303a;
+}
+.logo-whight {
+  color: white;
+  font: Oleo Script;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.address {
+  color: #fff;
+  font: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.mail {
+  font: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.nomber {
+  font: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
