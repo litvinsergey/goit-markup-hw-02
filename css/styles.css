@@ -98,10 +98,22 @@ a {
   text-align: center;
 }
 
-.advantages-item,
-.team-item,
+.advantages-item {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.team-item {
+  color: var(--title-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
 .work-item {
   color: var(--title-text-color);
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -110,9 +122,18 @@ a {
 .team {
   background-color: var(--team-background-color);
 }
-.team-content,
-.work-content {
+.team-content {
   font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+.work-content {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
   line-height: 1.18;
 }
 
