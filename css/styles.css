@@ -113,10 +113,12 @@ a {
 }
 .work-item {
   color: var(--title-text-color);
-  font-size: 16px;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
 }
 
 .team {
